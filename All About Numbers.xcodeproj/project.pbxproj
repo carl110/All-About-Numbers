@@ -16,6 +16,14 @@
 		89B8DE9124B32DD700F3CF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B8DE8F24B32DD700F3CF2F /* LaunchScreen.storyboard */; };
 		89B8DE9C24B32DD900F3CF2F /* All_About_NumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DE9B24B32DD900F3CF2F /* All_About_NumbersTests.swift */; };
 		89B8DEA724B32DD900F3CF2F /* All_About_NumbersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DEA624B32DD900F3CF2F /* All_About_NumbersUITests.swift */; };
+		89B8DEB824B3325F00F3CF2F /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DEB724B3325F00F3CF2F /* UIColor+extensions.swift */; };
+		89B8DEBA24B337AD00F3CF2F /* UIButton+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DEB924B337AD00F3CF2F /* UIButton+extensions.swift */; };
+		89B8DEBC24B33C4800F3CF2F /* UILabel+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DEBB24B33C4800F3CF2F /* UILabel+extensions.swift */; };
+		89B8DEBE24B33C6F00F3CF2F /* UIFont+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DEBD24B33C6F00F3CF2F /* UIFont+extensions.swift */; };
+		89B8DEC924B341CE00F3CF2F /* NumberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DEC824B341CE00F3CF2F /* NumberModel.swift */; };
+		89B8DECF24B354D200F3CF2F /* UIViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DECE24B354D200F3CF2F /* UIViewController+extensions.swift */; };
+		89B8DED124B5E43A00F3CF2F /* UITextField+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DED024B5E43A00F3CF2F /* UITextField+extensions.swift */; };
+		89B8DED324B5E49C00F3CF2F /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DED224B5E49C00F3CF2F /* UIView+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		89B8DEA224B32DD900F3CF2F /* All About NumbersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "All About NumbersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B8DEA624B32DD900F3CF2F /* All_About_NumbersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_About_NumbersUITests.swift; sourceTree = "<group>"; };
 		89B8DEA824B32DD900F3CF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B8DEB724B3325F00F3CF2F /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
+		89B8DEB924B337AD00F3CF2F /* UIButton+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+extensions.swift"; sourceTree = "<group>"; };
+		89B8DEBB24B33C4800F3CF2F /* UILabel+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+extensions.swift"; sourceTree = "<group>"; };
+		89B8DEBD24B33C6F00F3CF2F /* UIFont+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+extensions.swift"; sourceTree = "<group>"; };
+		89B8DEC824B341CE00F3CF2F /* NumberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberModel.swift; sourceTree = "<group>"; };
+		89B8DECE24B354D200F3CF2F /* UIViewController+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extensions.swift"; sourceTree = "<group>"; };
+		89B8DED024B5E43A00F3CF2F /* UITextField+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+extensions.swift"; sourceTree = "<group>"; };
+		89B8DED224B5E49C00F3CF2F /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,10 @@
 		89B8DE8024B32DD100F3CF2F /* All About Numbers */ = {
 			isa = PBXGroup;
 			children = (
+				89B8DEB424B32F6D00F3CF2F /* Main Screen */,
+				89B8DEB624B3324000F3CF2F /* Extensions */,
 				89B8DE8124B32DD100F3CF2F /* AppDelegate.swift */,
 				89B8DE8324B32DD100F3CF2F /* SceneDelegate.swift */,
-				89B8DE8524B32DD100F3CF2F /* ViewController.swift */,
-				89B8DE8724B32DD100F3CF2F /* Main.storyboard */,
 				89B8DE8D24B32DD700F3CF2F /* Assets.xcassets */,
 				89B8DE8F24B32DD700F3CF2F /* LaunchScreen.storyboard */,
 				89B8DE9224B32DD700F3CF2F /* Info.plist */,
@@ -129,6 +145,46 @@
 				89B8DEA824B32DD900F3CF2F /* Info.plist */,
 			);
 			path = "All About NumbersUITests";
+			sourceTree = "<group>";
+		};
+		89B8DEB424B32F6D00F3CF2F /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				89B8DEC724B341B700F3CF2F /* Model */,
+				89B8DEB524B32F7B00F3CF2F /* View */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		89B8DEB524B32F7B00F3CF2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89B8DE8724B32DD100F3CF2F /* Main.storyboard */,
+				89B8DE8524B32DD100F3CF2F /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89B8DEB624B3324000F3CF2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89B8DEB724B3325F00F3CF2F /* UIColor+extensions.swift */,
+				89B8DEB924B337AD00F3CF2F /* UIButton+extensions.swift */,
+				89B8DEBB24B33C4800F3CF2F /* UILabel+extensions.swift */,
+				89B8DEBD24B33C6F00F3CF2F /* UIFont+extensions.swift */,
+				89B8DECE24B354D200F3CF2F /* UIViewController+extensions.swift */,
+				89B8DED024B5E43A00F3CF2F /* UITextField+extensions.swift */,
+				89B8DED224B5E49C00F3CF2F /* UIView+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		89B8DEC724B341B700F3CF2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89B8DEC824B341CE00F3CF2F /* NumberModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +319,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				89B8DE8C24B32DD100F3CF2F /* All_About_Numbers.xcdatamodeld in Sources */,
+				89B8DED124B5E43A00F3CF2F /* UITextField+extensions.swift in Sources */,
+				89B8DECF24B354D200F3CF2F /* UIViewController+extensions.swift in Sources */,
 				89B8DE8624B32DD100F3CF2F /* ViewController.swift in Sources */,
+				89B8DEBE24B33C6F00F3CF2F /* UIFont+extensions.swift in Sources */,
+				89B8DEB824B3325F00F3CF2F /* UIColor+extensions.swift in Sources */,
+				89B8DED324B5E49C00F3CF2F /* UIView+extensions.swift in Sources */,
+				89B8DEBA24B337AD00F3CF2F /* UIButton+extensions.swift in Sources */,
+				89B8DEBC24B33C4800F3CF2F /* UILabel+extensions.swift in Sources */,
 				89B8DE8224B32DD100F3CF2F /* AppDelegate.swift in Sources */,
+				89B8DEC924B341CE00F3CF2F /* NumberModel.swift in Sources */,
 				89B8DE8424B32DD100F3CF2F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
