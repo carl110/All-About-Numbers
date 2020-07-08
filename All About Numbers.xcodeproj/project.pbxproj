@@ -24,6 +24,7 @@
 		89B8DECF24B354D200F3CF2F /* UIViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DECE24B354D200F3CF2F /* UIViewController+extensions.swift */; };
 		89B8DED124B5E43A00F3CF2F /* UITextField+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DED024B5E43A00F3CF2F /* UITextField+extensions.swift */; };
 		89B8DED324B5E49C00F3CF2F /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DED224B5E49C00F3CF2F /* UIView+extensions.swift */; };
+		89B8DED524B5FEE100F3CF2F /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8DED424B5FEE100F3CF2F /* String+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		89B8DECE24B354D200F3CF2F /* UIViewController+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extensions.swift"; sourceTree = "<group>"; };
 		89B8DED024B5E43A00F3CF2F /* UITextField+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+extensions.swift"; sourceTree = "<group>"; };
 		89B8DED224B5E49C00F3CF2F /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
+		89B8DED424B5FEE100F3CF2F /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				89B8DECE24B354D200F3CF2F /* UIViewController+extensions.swift */,
 				89B8DED024B5E43A00F3CF2F /* UITextField+extensions.swift */,
 				89B8DED224B5E49C00F3CF2F /* UIView+extensions.swift */,
+				89B8DED424B5FEE100F3CF2F /* String+extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89B8DE8C24B32DD100F3CF2F /* All_About_Numbers.xcdatamodeld in Sources */,
+				89B8DED524B5FEE100F3CF2F /* String+extensions.swift in Sources */,
 				89B8DED124B5E43A00F3CF2F /* UITextField+extensions.swift in Sources */,
 				89B8DECF24B354D200F3CF2F /* UIViewController+extensions.swift in Sources */,
 				89B8DE8624B32DD100F3CF2F /* ViewController.swift in Sources */,
@@ -512,7 +516,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlwainwright.All-About-Numbers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -530,7 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlwainwright.All-About-Numbers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -12,30 +12,12 @@ import UIKit
 extension UILabel {
     
     func titleLabelSetUp() {
-//        self.textColor = UIColor.Shades.standardWhite
         self.textAlignment = .center
         self.numberOfLines = 0
         self.font = UIFont.preferredFont(forTextStyle: .largeTitle)
         self.font = self.font.bold()
     }
-    
-    func subTitleLabelSetUp() {
-        self.textColor = UIColor.Shades.standardBlack
-        self.textAlignment = .left
-        self.numberOfLines = 0
-        self.lineBreakMode = .byWordWrapping
-        self.font = UIFont.preferredFont(forTextStyle: .title1)
-    }
-    
-    func bodyLabelSetUp() {
-        self.textColor = UIColor.Shades.standardBlack
-        self.textAlignment = .left
-        self.numberOfLines = 0
-        self.lineBreakMode = .byWordWrapping
-        self.font = UIFont.preferredFont(forTextStyle: .body)
-    }
 
-    
     func setSizeFont (sizeFont: CGFloat) {
         self.font =  UIFont(name: self.font.fontName, size: sizeFont)!
         self.sizeToFit()

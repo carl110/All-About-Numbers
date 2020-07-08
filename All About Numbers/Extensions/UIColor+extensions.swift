@@ -61,6 +61,9 @@ extension UIColor {
         static let standardGrey = UIColor.colourWithHexString(hexStr: "#808080")
         static let standardBlack = UIColor.colourWithHexString(hexStr: "#000000")
         static let standardWhite = UIColor.colourWithHexString(hexStr: "#FFFFFF")
+        static let transparentWhite = UIColor.colourWithHexString(hexStr: "#FFFFFF").withAlphaComponent(0.5)
+        static let transparentGrey = UIColor.colourWithHexString(hexStr: "#808080").withAlphaComponent(0.5)
+        static let transparentBlack = UIColor.colourWithHexString(hexStr: "#000000").withAlphaComponent(0.5)
     }
     
     struct Transparent {
